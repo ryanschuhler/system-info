@@ -1,3 +1,3 @@
 # Contact Info
 
-is-@liferay.com
+Email: is-@liferay.com
