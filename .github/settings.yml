@@ -2,23 +2,23 @@
 
 # See https://developer.github.com/v3/repos/#edit for all available settings.
 repository:
-  name: system-info 
+  name: system-info
   description: A repo to store system info
-  private: false 
+  private: false
   has_issues: true
-  has_projects: false 
-  has_wiki: false 
+  has_projects: false
+  has_wiki: false
   has_downloads: true
   default_branch: master
 
 # See https://developer.github.com/v3/repos/collaborators/#add-user-as-a-collaborator for available options
 collaborators:
-  - username: ryanschuhler 
-    permission: admin 
+  - username: ryanschuhler
+    permission: admin
 
 # See https://developer.github.com/v3/teams/#add-or-update-team-repository for available options
 teams:
-  - name: liferay/is-department 
+  - name: liferay/is-department
     # The permission to grant the team. Can be one of:
     # * `pull` - can pull, but not push to or administer this repository.
     # * `push` - can pull and push, but not administer this repository.
