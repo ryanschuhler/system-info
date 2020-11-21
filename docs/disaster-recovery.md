@@ -1,6 +1,7 @@
 # Disaster Recovery
 
 Here's the plan...
+
 1.
-2. 
+2.
 3.
