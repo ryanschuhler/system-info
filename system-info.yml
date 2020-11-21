@@ -1,10 +1,10 @@
 name: system-name
 url: https://system.url
-department: 
-team:
-hosting-provider:
-software:
-contact:
+department: Information Services 
+team: IS Operations
+hosting-provider: Github
+software: Javascript
+contact: is@liferay.com
 integrations:
-    - system-name
-    - system-name
+    - system-1-name
+    - system-2-name
