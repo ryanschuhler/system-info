@@ -9,10 +9,12 @@ general:
     description: "Unstructured text description of the service dependencies for humans."
   description:
     description: "Unstructured text description of the service for humans."
+    k8-annotation: true
     required: true
     weight: 2
   docs:
     description: "Link to external project documentation."
+    k8-annotation: true
     weight: 2
   hosting-provider:
     description: "Unstructured text of stysems hosting provider."
@@ -24,6 +26,7 @@ general:
     description: "Link to external log viewer."
   name:
     description: "Unstructured text of system name."
+    k8-annotation: true
     required: true
   owner:
     description: "GitHub or equivalent username (prefix with @), email address, or unstructured owner description."
@@ -32,6 +35,7 @@ general:
     description: "Link to external performance dashboard."
   repo:
     description: "Link to external VCS repository."
+    k8-annotation: true
   runbook:
     description: "Link to external project runbook."
   software:
