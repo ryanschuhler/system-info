@@ -1,28 +1,53 @@
-general
-  bugs: "Link to external bug tracker."
-  chat: "Slack channel (prefix with #), or link to other external chat system."
-  department: "Unstructured text of systems sponsoring department."
-  dependencies: "Unstructured text description of the service dependencies for humans."
-  description: "Unstructured text description of the service for humans."
-  docs: "Link to external project documentation."
-  hosting-provider: "Unstructured text of stysems hosting provider."
-  incidents: "Link to external incident dashboard."
-  integrations: "Unstructured text description of the service integrations for humans."
-  logs: "Link to external log viewer."
-  name: "Unstructured text of system name."
-  owner: "GitHub or equivalent username (prefix with @), email address, or unstructured owner description."
-  performance: "Link to external performance dashboard."
-  repo: "Link to external VCS repository."
-  runbook: "Link to external project runbook."
-  software: "Unstructured text of software system is written in."
-  support: "Link to external support center."
-  team: "Unstructured text of team that maintains system."
-  uptime: "Link to external uptime dashboard."
-  url: "Link to site where system can be accessed."
-compliance
-  appsec
-  data-protection
-  devsecops
-  incident-response
-  information-risk-managment
-  security
+general:
+  bugs:
+    description: "Link to external bug tracker."
+  chat:
+    description: "Slack channel (prefix with #), or link to other external chat system."
+  department:
+    description: "Unstructured text of systems sponsoring department."
+  dependencies:
+    description: "Unstructured text description of the service dependencies for humans."
+  description:
+    description: "Unstructured text description of the service for humans."
+    required: true
+    weight: 2
+  docs:
+    description: "Link to external project documentation."
+    weight: 2
+  hosting-provider:
+    description: "Unstructured text of stysems hosting provider."
+  incidents:
+    description: "Link to external incident dashboard."
+  integrations:
+    description: "Unstructured text description of the service integrations for humans."
+  logs:
+    description: "Link to external log viewer."
+  name:
+    description: "Unstructured text of system name."
+    required: true
+  owner:
+    description: "GitHub or equivalent username (prefix with @), email address, or unstructured owner description."
+    required: true
+  performance:
+    description: "Link to external performance dashboard."
+  repo:
+    description: "Link to external VCS repository."
+  runbook:
+    description: "Link to external project runbook."
+  software:
+    description: "Unstructured text of software system is written in."
+  support:
+    description: "Link to external support center."
+  team:
+    description: "Unstructured text of team that maintains system."
+  uptime:
+    description: "Link to external uptime dashboard."
+  url:
+    description: "Link to site where system can be accessed."
+compliance:
+  appsec: ./appsec.yml
+  data-protection: ./data-protection.yml
+  devsecops: ./devsecops.yml
+  incident-response: ./incident-response.yml
+  information-risk-managment: ./information-risk-managment.yml
+  security: ./security.yml
