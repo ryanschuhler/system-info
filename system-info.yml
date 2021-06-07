@@ -1,67 +1,67 @@
-general:
-  bugs:
-    description: "Link to external bug tracker."
-  chat:
-    description: "Slack channel (prefix with #), or link to other external chat system."
-  department:
-    description: "Unstructured text of systems sponsoring department."
-  dependencies:
-    description: "Unstructured text description of the service dependencies for humans."
-  description:
-    description: "Unstructured text description of the service for humans."
-    k8-annotation: true
-    required: true
-    weight: 2
-  docs:
-    description: "Link to external project documentation."
-    k8-annotation: true
-    weight: 2
-  hosting-provider:
-    description: "Unstructured text of stysems hosting provider."
-  incidents:
-    description: "Link to external incident dashboard."
-  integrations:
-    description: "Unstructured text description of the service integrations for humans."
-  kpi:
-    description: "Link to KPI documentation."
-  legal-ticket:
-    description: "Link to legal ticket."
-  logs:
-    description: "Link to external log viewer."
-  name:
-    description: "Unstructured text of system name."
-    k8-annotation: true
-    required: true
-  owner:
-    description: "GitHub or equivalent username (prefix with @), email address, or unstructured owner description."
-    required: true
-  performance:
-    description: "Link to external performance dashboard."
-  repo:
-    description: "Link to external VCS repository."
-    k8-annotation: true
-  runbook:
-    description: "Link to external project runbook."
-  software:
-    description: "Unstructured text of software system is written in."
-  support:
-    description: "Link to external support center."
-  team:
-    description: "Unstructured text of team that maintains system."
-  tests:
-    description: "Link to testing plan and/or dashboard."
-  uptime:
-    description: "Link to external uptime dashboard."
-  url:
-    description: "Link to site where system can be accessed."
-  vendor:
-    description: "Unstructured text of 3rd party vendor."
-  vendor-contact:
-    description: "Email address of contact for 3rd party vendor."
+
+bugs:
+  description: "Link to external bug tracker."
+chat:
+  description: "Slack channel (prefix with #), or link to other external chat system."
 compliance:
-  appsec: ./appsec.yml
-  data-protection: ./data-protection.yml
-  devsecops: ./devsecops.yml
-  incident-response: ./incident-response.yml
-  information-risk-managment: ./information-risk-managment.yml
-  security: ./security.yml
+  appsec: "Link to appsec.yml."
+  data-protection: "Link to data-protection.yml."
+  devsecops: "Link to devsecops.yml."
+  incident-response: "Link to incident-response.yml."
+  information-risk-managment: "Link to information-risk-managment.yml."
+  security: "Link to security.yml.
+department:
+  description: "Unstructured text of systems sponsoring department."
+dependencies:
+  description: "Unstructured text description of the service dependencies for humans."
+description:
+  description: "Unstructured text description of the service for humans."
+  k8-annotation: true
+  required: true
+  weight: 2
+docs:
+  description: "Link to external project documentation."
+  k8-annotation: true
+  weight: 2
+hosting-provider:
+  description: "Unstructured text of stysems hosting provider."
+incidents:
+  description: "Link to external incident dashboard."
+integrations:
+  description: "Unstructured text description of the service integrations for humans."
+kpi:
+  description: "Link to KPI documentation."
+legal-ticket:
+  description: "Link to legal ticket."
+logs:
+  description: "Link to external log viewer."
+name:
+  description: "Unstructured text of system name."
+  k8-annotation: true
+  required: true
+owner:
+  description: "GitHub or equivalent username (prefix with @), email address, or unstructured owner description."
+  required: true
+performance:
+  description: "Link to external performance dashboard."
+repo:
+  description: "Link to external VCS repository."
+  k8-annotation: true
+runbook:
+  description: "Link to external project runbook."
+software:
+  description: "Unstructured text of software system is written in."
+support:
+  description: "Link to external support center."
+team:
+  description: "Unstructured text of team that maintains system."
+tests:
+  description: "Link to testing plan and/or dashboard."
+uptime:
+  description: "Link to external uptime dashboard."
+url:
+  description: "Link to site where system can be accessed."
+vendor:
+  description: "Unstructured text of 3rd party vendor."
+vendor-contact:
+  description: "Email address of contact for 3rd party vendor."
