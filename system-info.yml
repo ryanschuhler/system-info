@@ -22,6 +22,8 @@ general:
     description: "Link to external incident dashboard."
   integrations:
     description: "Unstructured text description of the service integrations for humans."
+  kpi:
+    description: "Link to KPI documentation."
   legal-ticket:
     description: "Link to legal ticket."
   logs:
@@ -46,6 +48,8 @@ general:
     description: "Link to external support center."
   team:
     description: "Unstructured text of team that maintains system."
+  tests:
+    description: "Link to testing plan and/or dashboard."
   uptime:
     description: "Link to external uptime dashboard."
   url:
