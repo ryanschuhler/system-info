@@ -52,7 +52,7 @@ general:
     description: "Link to site where system can be accessed."
   vendor:
     description: "Unstructured text of 3rd party vendor."
-  vendor-contact: 
+  vendor-contact:
     description: "Email address of contact for 3rd party vendor."
 compliance:
   appsec: ./appsec.yml
