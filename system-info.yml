@@ -22,6 +22,8 @@ general:
     description: "Link to external incident dashboard."
   integrations:
     description: "Unstructured text description of the service integrations for humans."
+  legal-ticket:
+    description: "Link to legal ticket."
   logs:
     description: "Link to external log viewer."
   name:
@@ -48,6 +50,10 @@ general:
     description: "Link to external uptime dashboard."
   url:
     description: "Link to site where system can be accessed."
+  vendor:
+    description: "Unstructured text of 3rd party vendor."
+  vendor-contact: 
+    description: "Email address of contact for 3rd party vendor."
 compliance:
   appsec: ./appsec.yml
   data-protection: ./data-protection.yml
