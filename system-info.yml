@@ -9,7 +9,7 @@ compliance:
   devsecops: "Link to devsecops.yml."
   incident-response: "Link to incident-response.yml."
   information-risk-managment: "Link to information-risk-managment.yml."
-  security: "Link to security.yml.
+  security: "Link to security.yml."
 department:
   description: "Unstructured text of systems sponsoring department."
 dependencies:
